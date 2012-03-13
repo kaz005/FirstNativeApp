@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A15FE74D150F1CF200CD10DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15FE74C150F1CF200CD10DD /* UIKit.framework */; };
+		A15FE74F150F1CF200CD10DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15FE74E150F1CF200CD10DD /* Foundation.framework */; };
+		A15FE751150F1CF200CD10DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A15FE750150F1CF200CD10DD /* CoreGraphics.framework */; };
+		A15FE757150F1CF200CD10DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A15FE755150F1CF200CD10DD /* InfoPlist.strings */; };
+		A15FE759150F1CF200CD10DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FE758150F1CF200CD10DD /* main.m */; };
+		A15FE75D150F1CF200CD10DD /* nihonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FE75C150F1CF200CD10DD /* nihonAppDelegate.m */; };
+		A15FE760150F1CF200CD10DD /* nihonRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FE75F150F1CF200CD10DD /* nihonRootViewController.m */; };
+		A15FE763150F1CF200CD10DD /* nihonDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FE762150F1CF200CD10DD /* nihonDataViewController.m */; };
+		A15FE766150F1CF200CD10DD /* nihonModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = A15FE765150F1CF200CD10DD /* nihonModelController.m */; };
+		A15FE769150F1CF200CD10DD /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15FE767150F1CF200CD10DD /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A15FE748150F1CF200CD10DD /* FirstNativeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstNativeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15FE74C150F1CF200CD10DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A15FE74E150F1CF200CD10DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A15FE750150F1CF200CD10DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A15FE754150F1CF200CD10DD /* FirstNativeApp-Info.plist */ = {isa = PBXFileReference; path = "FirstNativeApp-Info.plist"; sourceTree = "<group>"; };
+		A15FE756150F1CF200CD10DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A15FE758150F1CF200CD10DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A15FE75A150F1CF200CD10DD /* FirstNativeApp-Prefix.pch */ = {isa = PBXFileReference; path = "FirstNativeApp-Prefix.pch"; sourceTree = "<group>"; };
+		A15FE75B150F1CF200CD10DD /* nihonAppDelegate.h */ = {isa = PBXFileReference; path = nihonAppDelegate.h; sourceTree = "<group>"; };
+		A15FE75C150F1CF200CD10DD /* nihonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nihonAppDelegate.m; sourceTree = "<group>"; };
+		A15FE75E150F1CF200CD10DD /* nihonRootViewController.h */ = {isa = PBXFileReference; path = nihonRootViewController.h; sourceTree = "<group>"; };
+		A15FE75F150F1CF200CD10DD /* nihonRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nihonRootViewController.m; sourceTree = "<group>"; };
+		A15FE761150F1CF200CD10DD /* nihonDataViewController.h */ = {isa = PBXFileReference; path = nihonDataViewController.h; sourceTree = "<group>"; };
+		A15FE762150F1CF200CD10DD /* nihonDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nihonDataViewController.m; sourceTree = "<group>"; };
+		A15FE764150F1CF200CD10DD /* nihonModelController.h */ = {isa = PBXFileReference; path = nihonModelController.h; sourceTree = "<group>"; };
+		A15FE765150F1CF200CD10DD /* nihonModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nihonModelController.m; sourceTree = "<group>"; };
+		A15FE768150F1CF200CD10DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A15FE745150F1CF200CD10DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15FE74D150F1CF200CD10DD /* UIKit.framework in Frameworks */,
+				A15FE74F150F1CF200CD10DD /* Foundation.framework in Frameworks */,
+				A15FE751150F1CF200CD10DD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A15FE73D150F1CF100CD10DD = {
+			isa = PBXGroup;
+			children = (
+				A15FE752150F1CF200CD10DD /* FirstNativeApp */,
+				A15FE74B150F1CF200CD10DD /* Frameworks */,
+				A15FE749150F1CF200CD10DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A15FE749150F1CF200CD10DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A15FE748150F1CF200CD10DD /* FirstNativeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A15FE74B150F1CF200CD10DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A15FE74C150F1CF200CD10DD /* UIKit.framework */,
+				A15FE74E150F1CF200CD10DD /* Foundation.framework */,
+				A15FE750150F1CF200CD10DD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A15FE752150F1CF200CD10DD /* FirstNativeApp */ = {
+			isa = PBXGroup;
+			children = (
+				A15FE75B150F1CF200CD10DD /* nihonAppDelegate.h */,
+				A15FE75C150F1CF200CD10DD /* nihonAppDelegate.m */,
+				A15FE75E150F1CF200CD10DD /* nihonRootViewController.h */,
+				A15FE75F150F1CF200CD10DD /* nihonRootViewController.m */,
+				A15FE761150F1CF200CD10DD /* nihonDataViewController.h */,
+				A15FE762150F1CF200CD10DD /* nihonDataViewController.m */,
+				A15FE764150F1CF200CD10DD /* nihonModelController.h */,
+				A15FE765150F1CF200CD10DD /* nihonModelController.m */,
+				A15FE767150F1CF200CD10DD /* MainStoryboard.storyboard */,
+				A15FE753150F1CF200CD10DD /* Supporting Files */,
+			);
+			path = FirstNativeApp;
+			sourceTree = "<group>";
+		};
+		A15FE753150F1CF200CD10DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A15FE754150F1CF200CD10DD /* FirstNativeApp-Info.plist */,
+				A15FE755150F1CF200CD10DD /* InfoPlist.strings */,
+				A15FE758150F1CF200CD10DD /* main.m */,
+				A15FE75A150F1CF200CD10DD /* FirstNativeApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A15FE747150F1CF200CD10DD /* FirstNativeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15FE76C150F1CF200CD10DD /* Build configuration list for PBXNativeTarget "FirstNativeApp" */;
+			buildPhases = (
+				A15FE744150F1CF200CD10DD /* Sources */,
+				A15FE745150F1CF200CD10DD /* Frameworks */,
+				A15FE746150F1CF200CD10DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirstNativeApp;
+			productName = FirstNativeApp;
+			productReference = A15FE748150F1CF200CD10DD /* FirstNativeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A15FE73F150F1CF100CD10DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = nihon;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = A15FE742150F1CF100CD10DD /* Build configuration list for PBXProject "FirstNativeApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A15FE73D150F1CF100CD10DD;
+			productRefGroup = A15FE749150F1CF200CD10DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A15FE747150F1CF200CD10DD /* FirstNativeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A15FE746150F1CF200CD10DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15FE757150F1CF200CD10DD /* InfoPlist.strings in Resources */,
+				A15FE769150F1CF200CD10DD /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A15FE744150F1CF200CD10DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15FE759150F1CF200CD10DD /* main.m in Sources */,
+				A15FE75D150F1CF200CD10DD /* nihonAppDelegate.m in Sources */,
+				A15FE760150F1CF200CD10DD /* nihonRootViewController.m in Sources */,
+				A15FE763150F1CF200CD10DD /* nihonDataViewController.m in Sources */,
+				A15FE766150F1CF200CD10DD /* nihonModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A15FE755150F1CF200CD10DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15FE756150F1CF200CD10DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A15FE767150F1CF200CD10DD /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15FE768150F1CF200CD10DD /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A15FE76A150F1CF200CD10DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A15FE76B150F1CF200CD10DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A15FE76D150F1CF200CD10DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstNativeApp/FirstNativeApp-Prefix.pch";
+				INFOPLIST_FILE = "FirstNativeApp/FirstNativeApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A15FE76E150F1CF200CD10DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FirstNativeApp/FirstNativeApp-Prefix.pch";
+				INFOPLIST_FILE = "FirstNativeApp/FirstNativeApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A15FE742150F1CF100CD10DD /* Build configuration list for PBXProject "FirstNativeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15FE76A150F1CF200CD10DD /* Debug */,
+				A15FE76B150F1CF200CD10DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15FE76C150F1CF200CD10DD /* Build configuration list for PBXNativeTarget "FirstNativeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15FE76D150F1CF200CD10DD /* Debug */,
+				A15FE76E150F1CF200CD10DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A15FE73F150F1CF100CD10DD /* Project object */;
+}
