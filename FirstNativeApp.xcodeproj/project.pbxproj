@@ -27,14 +27,14 @@
 		A15FE754150F1CF200CD10DD /* FirstNativeApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstNativeApp-Info.plist"; sourceTree = "<group>"; };
 		A15FE756150F1CF200CD10DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A15FE758150F1CF200CD10DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A15FE75A150F1CF200CD10DD /* FirstNativeApp-Prefix.pch */ = {isa = PBXFileReference; path = "FirstNativeApp-Prefix.pch"; sourceTree = "<group>"; };
-		A15FE75B150F1CF200CD10DD /* nihonAppDelegate.h */ = {isa = PBXFileReference; path = nihonAppDelegate.h; sourceTree = "<group>"; };
+		A15FE75A150F1CF200CD10DD /* FirstNativeApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FirstNativeApp-Prefix.pch"; sourceTree = "<group>"; };
+		A15FE75B150F1CF200CD10DD /* nihonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nihonAppDelegate.h; sourceTree = "<group>"; };
 		A15FE75C150F1CF200CD10DD /* nihonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nihonAppDelegate.m; sourceTree = "<group>"; };
-		A15FE75E150F1CF200CD10DD /* nihonRootViewController.h */ = {isa = PBXFileReference; path = nihonRootViewController.h; sourceTree = "<group>"; };
+		A15FE75E150F1CF200CD10DD /* nihonRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nihonRootViewController.h; sourceTree = "<group>"; };
 		A15FE75F150F1CF200CD10DD /* nihonRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nihonRootViewController.m; sourceTree = "<group>"; };
-		A15FE761150F1CF200CD10DD /* nihonDataViewController.h */ = {isa = PBXFileReference; path = nihonDataViewController.h; sourceTree = "<group>"; };
+		A15FE761150F1CF200CD10DD /* nihonDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nihonDataViewController.h; sourceTree = "<group>"; };
 		A15FE762150F1CF200CD10DD /* nihonDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nihonDataViewController.m; sourceTree = "<group>"; };
-		A15FE764150F1CF200CD10DD /* nihonModelController.h */ = {isa = PBXFileReference; path = nihonModelController.h; sourceTree = "<group>"; };
+		A15FE764150F1CF200CD10DD /* nihonModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nihonModelController.h; sourceTree = "<group>"; };
 		A15FE765150F1CF200CD10DD /* nihonModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = nihonModelController.m; sourceTree = "<group>"; };
 		A15FE768150F1CF200CD10DD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
