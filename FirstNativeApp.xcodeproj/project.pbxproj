@@ -24,7 +24,7 @@
 		A15FE74C150F1CF200CD10DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A15FE74E150F1CF200CD10DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A15FE750150F1CF200CD10DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		A15FE754150F1CF200CD10DD /* FirstNativeApp-Info.plist */ = {isa = PBXFileReference; path = "FirstNativeApp-Info.plist"; sourceTree = "<group>"; };
+		A15FE754150F1CF200CD10DD /* FirstNativeApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FirstNativeApp-Info.plist"; sourceTree = "<group>"; };
 		A15FE756150F1CF200CD10DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A15FE758150F1CF200CD10DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A15FE75A150F1CF200CD10DD /* FirstNativeApp-Prefix.pch */ = {isa = PBXFileReference; path = "FirstNativeApp-Prefix.pch"; sourceTree = "<group>"; };
